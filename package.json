@@ -1,0 +1,11 @@
+{
+  "name": "@steatopygous/correct-node",
+  "version": "1.1.4",
+  "main": "./lib/correct-node.js",
+  "bin": {
+    "correct-node": "./bin/index.js"
+  },
+  "dependencies": {
+    "semver": "github:npm/node-semver"
+  }
+}
