@@ -1,11 +1,19 @@
 {
   "name": "@steatopygous/correct-node",
-  "version": "1.1.4",
+  "description": "CLI that checks whether the current Node version matches the one in package.json or a .nvmrc file.",
+  "author": "Harry Ohlsen",
+  "version": "1.1.5",
+  "repository": "github:steatopygous/correct-node",
   "main": "./lib/correct-node.js",
   "bin": {
     "correct-node": "./bin/index.js"
   },
   "dependencies": {
     "semver": "github:npm/node-semver"
-  }
+  },
+  "keywords": [
+    "node",
+    "package.json",
+    "semver"
+  ]
 }
